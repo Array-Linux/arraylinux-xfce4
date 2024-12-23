@@ -127,6 +127,9 @@ gparted
 htop
 nwg-look
 mpv
+plank
+nm-connection-editor
+network-manager-applet
 
 # Audio
 
