@@ -1,17 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.1" encoding="UTF-8"?>
 
 <channel name="xfce4-panel" version="1.0">
   <property name="configver" type="int" value="2"/>
   <property name="panels" type="array">
     <value type="int" value="2"/>
+    <value type="int" value="1"/>
     <property name="dark-mode" type="bool" value="true"/>
     <property name="panel-2" type="empty">
       <property name="position" type="string" value="p=6;x=683;y=17"/>
-      <property name="size" type="uint" value="25"/>
+      <property name="size" type="uint" value="30"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="length-adjust" type="bool" value="true"/>
       <property name="length" type="double" value="100"/>
-      <property name="icon-size" type="uint" value="19"/>
+      <property name="icon-size" type="uint" value="23"/>
       <property name="enter-opacity" type="uint" value="100"/>
       <property name="leave-opacity" type="uint" value="100"/>
       <property name="plugin-ids" type="array">
@@ -36,6 +37,26 @@
         <value type="double" value="0.58922558922558921"/>
       </property>
     </property>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=10;x=681;y=743"/>
+      <property name="size" type="uint" value="48"/>
+      <property name="length" type="double" value="1"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="9"/>
+        <value type="int" value="10"/>
+        <value type="int" value="11"/>
+        <value type="int" value="12"/>
+      </property>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="background-style" type="uint" value="1"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0"/>
+        <value type="double" value="0"/>
+        <value type="double" value="0"/>
+        <value type="double" value="0"/>
+      </property>
+      <property name="autohide-behavior" type="uint" value="1"/>
+    </property>
   </property>
   <property name="plugins" type="empty">
     <property name="plugin-20" type="string" value="notification-plugin"/>
@@ -43,6 +64,15 @@
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="known-players" type="string" value="vlc"/>
     </property>
+    <property name="plugin-1" type="string" value="systray">
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “oliveira ” active: oliveira  (89%)"/>
+        <value type="string" value="wi-fi network connection “oliveira ” active: oliveira  (75%)"/>
+        <value type="string" value="wi-fi network connection “oliveira ” active: oliveira  (47%)"/>
+        <value type="string" value="wi-fi network connection “oliveira ” active: oliveira  (54%)"/>
+        <value type="string" value="wi-fi network connection “polocentroestacio” active: polocentroestacio (72%)"/>
+        <value type="string" value="networkmanager applet"/>
+      </property>
       <property name="known-items" type="array">
         <value type="string" value="vlc"/>
       </property>
@@ -76,6 +106,26 @@
       <property name="miniature-view" type="bool" value="false"/>
       <property name="numbering" type="bool" value="false"/>
       <property name="wrap-workspaces" type="bool" value="false"/>
+    </property>
+    <property name="plugin-9" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17349925101.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-10" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17349925272.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-11" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17349925433.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-12" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17349925644.desktop"/>
+      </property>
     </property>
   </property>
 </channel>
